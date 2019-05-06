@@ -1,7 +1,3 @@
 class ApplicationController < ActionController::API
-
-  def index 
-    render plain: "hi"
-  end 
-
+  include ActionController::HttpAuthentication::Token::ControllerMethods
 end
