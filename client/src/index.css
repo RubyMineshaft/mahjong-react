@@ -12,3 +12,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+div.bs-form {
+  margin: 30px 400px;
+  background-color: #eff5f5;
+}
